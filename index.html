@@ -75,9 +75,9 @@
 			}
 			
 			.social{
-				flex-direction:row;
-				justify-content: center;
-				
+			        display:flex;
+				flex-flow:row wrap;
+				justify-content: space-evenly;
 			}
 		}
 	}
@@ -90,8 +90,14 @@
 	@media (min-width: 1281px) { 
 		body { 
 			.logo{
-				width=100px;
+				width=10px;
 				align-content:flex-start;
+			}
+			
+			h1{
+				justify-content: center;
+				font-style: normal;
+				font-size: 20px;
 			}
 		} 
 	} 	
